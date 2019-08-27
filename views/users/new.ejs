@@ -1,6 +1,7 @@
 <h2 class="page-header">New User</h2>
 <form action="/users" method="POST" enctype="multipart/form-data">
   <%- include('_form_fields') %>
-  <a href="/users">Cancel</a>
+  <div class="form-row form-row-end btn-row"></div>
+  <a class="btn btn-danger" href="/books">Cancel</a>
   <button class="btn btn-primary" type="submit">Create</button>
 </form>
